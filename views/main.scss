@@ -1,0 +1,24 @@
+$background-color: rgb(238, 232, 213);
+$copy-color: rgb(101, 123, 131);
+
+body {
+  background-color: $background-color;
+  color: $copy-color;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 100px auto;
+  max-width: 1000px;
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+  padding: 20px;
+  margin: 20px;
+  border: thin $copy-color solid;
+  background-color: darken($background-color, 10%);
+}
