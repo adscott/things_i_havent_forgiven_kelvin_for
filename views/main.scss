@@ -16,9 +16,9 @@ h1 {
 }
 
 li {
-  list-style-type: none;
-  padding: 20px;
-  margin: 20px;
-  border: thin $copy-color solid;
   background-color: darken($background-color, 10%);
+  border: thin $copy-color solid;
+  list-style-type: none;
+  margin: 20px;
+  padding: 20px;
 }
