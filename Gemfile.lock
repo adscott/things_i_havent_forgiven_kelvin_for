@@ -11,8 +11,8 @@ GEM
     parser (2.7.2.0)
       ast (~> 2.4.1)
     powerpack (0.1.2)
-    rack (1.6.4)
-    rack-protection (1.5.3)
+    rack (1.6.13)
+    rack-protection (1.5.5)
       rack
     rainbow (2.2.2)
       rake
